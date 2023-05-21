@@ -1103,8 +1103,11 @@ button:focus {
 	margin-top: 10px;
 	margin-bottom: 15px;
 	width: 100%;
-	justify-content: center;
+	min-width: 2em;
+	height: 7em;
 }
+
+
 
 
 /*--------------------*/
@@ -1854,3 +1857,14 @@ button:focus {
 		opacity: 1;
 	  }
 
+.fit-partner{
+	min-width: 4em;
+	max-height: 7em;
+	object-fit: cover;
+}
+.paragh{
+	margin-top: 5em;
+	margin-left: 2em;
+	text-indent: 2em;
+	width: 80%;
+}
